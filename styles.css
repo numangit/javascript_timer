@@ -8,11 +8,10 @@
 body {
     background-color: #0c1222;
     color: aliceblue;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: center;
+    height: 100vh;
 }
 
 .container {
@@ -20,7 +19,6 @@ body {
     width: 70%;
     border-radius: 30px;
     padding: 50px;
-    margin-top: 20%;
 }
 
 .timer-heading {
