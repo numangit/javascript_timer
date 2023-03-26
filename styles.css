@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body {
@@ -17,14 +17,21 @@ body {
 
 .container {
     background-color: #0f172a;
-    height: 350px;
     width: 70%;
     border-radius: 30px;
     padding: 50px;
     margin-top: 20%;
 }
 
-h1 {
+.timer-heading {
     text-align: center;
     font-size: 3rem;
+    /* color: #075985; */
+}
+
+#countdown {
+    color: #075985;
+    text-align: center;
+    font-size: 10rem;
+    margin: 20px 0;
 }
